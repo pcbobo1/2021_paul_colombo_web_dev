@@ -1,0 +1,94 @@
+#mondrianflex {
+    background-color: purple;
+    width: 400px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 0px red;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* If you have row this affects the row
+    Flex-start
+    Flex-end
+    space-between
+    Space-around */
+    
+    align-items: stretch;
+    /* ... if you have row then this affects columns
+    flex-start
+    flex-end
+    center 
+    stretch
+    baseline */
+}
+#toprowflex{
+    flex: 72.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+#middlerowflex{
+    flex: 2.5%;
+
+}
+#bottomrowflex{
+    flex: 25%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+#leftcolumnflex{
+    flex: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+#leftdividerflex{
+    flex: 72.5%;
+}
+#topdividerflex{
+    flex: 2.5%;
+}
+#topboxflex{
+    flex: 48.275862069%;
+}
+#topleftdividerflex{
+    flex: 3.448275862%;
+}
+#topbottomboxflex{
+    flex: 48.275862069%;
+}
+#bottomrowflex1{
+    flex: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+#bottomrowdivider1{
+    flex: 2.5%;
+}
+#bottomrowflex2{
+    flex: 65%;
+}
+#bottomrowdivider2{
+    flex: 2.5%;
+}
+#bottomrowcube{
+    flex: 25%;
+}
+#smallbottom1{
+    flex: 45%;
+}
+#smalldivider{
+    flex: 10%;
+}
+#smallbottom2{
+    flex: 45%;
+}

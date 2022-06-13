@@ -1,0 +1,64 @@
+body {
+    background-color: coral;
+    }
+h1 {
+  color: green;
+}
+h2 {
+  color: rgb(128, 0, 85);
+}
+h1, h2, h3 {
+  font-family: "Arial", Times, serif;
+}
+h3 {
+  color: rgb(128, 0, 85);
+}
+li {
+  color: rgb(128, 0, 85);
+}
+p {
+  font-family: "Arial", Times, serif;
+}
+p, h1, h2, h3 {
+  font-size: large;
+}
+p {
+  color: green;
+}
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+hr {
+    border: 0;
+    width: 100%;
+    height: 5px;
+    color: #f00;
+    background-color: #f00;
+}
+div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+body {
+  width: 600px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+th, td {
+    color: aquamarine;
+}
+/* Cedar helped me with this */
